@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <OrganizationChart :value="props.treeData">
+  <OrganizationChart :value="props.treeData" collapsible>
     <template #default="slotProps">
       <span>{{ slotProps.node.label }}</span>
     </template>
