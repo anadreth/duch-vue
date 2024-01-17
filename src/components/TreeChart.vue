@@ -1,4 +1,6 @@
 <script setup>
+import OrganizationChart from 'primevue/organizationchart';
+
 const props = defineProps({
   treeData: {
     type: Object,
